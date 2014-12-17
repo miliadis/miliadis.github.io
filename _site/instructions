@@ -1,0 +1,23 @@
+To build the site:
+
+jekyll serve
+
+
+*********************************************************
+To make the pdf to single img download imagemagick
+
+1) convert paper.pdf out%d.png
+2) montage *.png -tile 5x1 -geometry 150 single.png
+
+
+*********************************************************
+
+To create a new project paper:
+
+1) create a markdown file
+2) create a paper img
+3) create a pdf-to-img image
+4) put the paper under the papers/*year*/
+4) publish!!
+
+

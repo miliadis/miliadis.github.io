@@ -1,0 +1,43 @@
+# Site settings
+title: Michael Iliadis
+email: miliad@u.northwestern.edu
+description: "I am Michael Iliadis and I am 4th year PhD student at EECS Dept, Northwestern University. My main Research is on Computer Vision and Machine Learning and my adviser is Professor Aggelos K. Katsaggelos.."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  
+# Footer settings
+footer:
+  copyright: Michael Iliadis
+  location: Address
+  social: Found Me
+  credits: IVPL
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: http://www.linkedin.com/in/miliadis
+  - title: twitter
+    url: http://twitter.com/mikegr55
+  - title: facebook
+    url: http://www.facebook.com/mike.pitsis.85
+  - title: github
+    url: http://github.com/miliadis
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2145 Sheridan Road, Rm. M472
+  - line: Tech, Northwestern University 
+  - line: Evanston, IL 60208-3118
+  
+# Credits content
+credits: 'I am within the <a href="http://ivpl.eecs.northwestern.edu/user/Miliadis"> Image and Video Processing Laboratory</a> and my adviser is Prof. <a href="http://ivpl.eecs.northwestern.edu/user/AKatsaggelos">Aggelos K. Katsaggelos</a>'
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:title.html
+
+

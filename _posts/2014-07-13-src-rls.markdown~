@@ -1,0 +1,52 @@
+---
+layout: post
+
+title: Sparse representation and least squares-based classification in face recognition
+booktitle: European Signal Processing Conference (EUSIPCO), 2014
+year: 2014
+img: face_sparse.jpg
+category: publications
+paper: /papers/2014/iliadis_EUSIPCO2014.pdf
+
+---
+
+In this paper we present a novel approach to face recognition.
+We propose an adaptation and extension to the
+state-of-the-art methods in face recognition, such as sparse
+representation-based classification and its extensions. Effectively,
+our method combines the sparsity-based approaches
+with additional least-squares steps and exhitbits robustness to
+outliers achieving significant performance improvement with
+little additional cost. This approach also mitigates the need
+for a large number of training images since it proves robust to
+varying number of training samples.
+
+### Paper
+
+
+<a href="{{ page.paper }}">
+<img src="/img/publications/single.png" >
+</a>
+
+<pre><code>@INPROCEEDINGS{Iliadis_EUSIPCO2014,
+author={Iliadis, Michael and Spinoulas, Leonidas and Berahas, Albert S. and Wang, Haohong and Katsaggelos, Aggelos K.},
+booktitle={Signal Processing Conference (EUSIPCO), 2014 Proceedings of the 22nd European},
+title={Sparse representation and least squares-based classification in face recognition},
+year={2014}
+}</code></pre>
+
+### Code
+Click [here](gggg) to download the code of this paper.
+
+### Authors 
+
+* Michael Iliadis
+* [Leonidas Spinoulas](http://ivpl.eecs.northwestern.edu/user/LSpinoulas)
+* Albert S. Berahas
+* [Haohong Wang](http://users.eecs.northwestern.edu/~haohong/)
+* [Aggelos K. Katsaggelos](http://ivpl.eecs.northwestern.edu/people/akatsaggelos/)
+
+### Contact
+
+Please contact Michael Iliadis (miliad at u.northwestern.edu) if you have any questions.
+

@@ -1,0 +1,56 @@
+---
+layout: project
+
+title: Virtual touring - A Content Based Image Retrieval application
+booktitle: International Conference on Multimedia and Expo Workshops (ICMEW), 2013 
+authors: Michael Iliadis, Seunghwan Yoo, Xin Xin, Aggelos K. Katsaggelos
+year: 2013
+img: virtual_touring_img.png
+paper: /papers/2013/iliadis_ICMEW2013.pdf
+category: publications
+
+---
+
+This paper proposes a Content Based Image Retrieval (CBIR) application
+for searching landmarks and buildings in a city using a
+smartphone. A user can snap a picture of the building using his
+smartphone. The application is able to quickly and accurately find
+the name of the building along with many other interesting information,
+such as the history of the building and its Wi-Fi availability.
+We present a novel client-server CBIR application that combines
+Laplacian-SIFT for feature descriptor, multiple kd-trees for indexing
+and two levels of geometric verification. We present back-end
+and front-end Application Programming Interfaces (API) for clientserver
+CBIR applications and we propose a distributed system architecture
+to support multiple client requests. The application consists
+of two user interfaces, a web interface and a mobile interface. Image
+retrieval results demonstrate the accuracy of the system in recognizing
+buildings.
+
+### Paper
+
+
+<a href="{{ page.paper }}">
+<img src="/img/publications/paper_img/virtual_touring_img_paper.png" >
+</a>
+
+<pre><code>@INPROCEEDINGS{iliadis_ICMEW2013,
+author={Iliadis, M. and Seunghwan Yoo and Xin Xin and Katsaggelos, A.K.},
+booktitle={Multimedia and Expo Workshops (ICMEW), 2013 IEEE International Conference on},
+title={Virtual touring: A Content Based Image Retrieval application},
+year={2013}
+}</code></pre>
+
+
+### Authors 
+
+* Michael Iliadis
+* [Jeremy Watt](http://ivpl.eecs.northwestern.edu/user/JWatt)
+* [Seunghwan Yoo](http://ivpl.eecs.northwestern.edu/user/ayoo)
+* Xin Xin
+* [Aggelos K. Katsaggelos](http://ivpl.eecs.northwestern.edu/people/akatsaggelos/)
+
+### Contact
+
+Please contact Michael Iliadis (miliad at u.northwestern.edu) if you have any questions.
+
