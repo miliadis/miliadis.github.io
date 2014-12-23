@@ -6,7 +6,7 @@
     <body id="page-top" class="index">
 
         {% include nav.html %}
-
+<div class="row" >
         <section style="padding-bottom: 70px;">
             <div class="container" > 
 
@@ -25,6 +25,7 @@
 
             </div>
         </section>
+</div>
 
         {% include footer.html %}    
         {% include js.html %}
