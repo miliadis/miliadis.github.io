@@ -1,9 +1,7 @@
-
 <!DOCTYPE html>
 <html>
 
     {% include head.html %}
-
 
     <body id="page-top" class="index">
 
@@ -11,25 +9,20 @@
 
         <section style="padding-bottom: 70px;">
             <div class="container" > 
-                 
-                    <div class="container" style="width: 800px; padding-top: 20px;">
 
+                <div class="container" style="padding-top: 20px;">
 
-                        <div >
-                            <h3 style ="border-bottom: 1px solid #EEE;">{{ page.title }}
-                                <small>{{ page.booktitle }}</small>
-                            </h3>
-                        </div>
-
-
-                        <div>
-
-									{{ content }}                            
-
-                        </div>
+                    <div >
+                        <h3 style ="border-bottom: 1px solid #EEE;">{{ page.title }}
+                            <small>{{ page.booktitle }}</small>
+                        </h3>
                     </div>
 
-               
+                    <div>
+                        {{ content }}                          
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -38,4 +31,3 @@
 
     </body>
 </html>
-
