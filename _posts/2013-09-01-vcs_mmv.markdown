@@ -26,12 +26,18 @@ the current state-of-the-art in video CS.
 
 ### Paper
 
-
+<div>
 <a href="{{ page.paper }}">
 <img src="/img/publications/paper_img/vcs_img_paper.png" >
 </a>
+</div>
 
-
+<pre><code>@INPROCEEDINGS{Iliadis_ICIP2013,
+author={Iliadis, M. and Watt, J. and Spinoulas, L. and Katsaggelos, A.K.},
+booktitle={Image Processing (ICIP), 2013 20th IEEE International Conference on},
+title={Video compressive sensing using multiple measurement vectors},
+year={2013}
+}</code></pre>
 
 
 ### Authors 
