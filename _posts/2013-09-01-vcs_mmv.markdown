@@ -26,10 +26,14 @@ the current state-of-the-art in video CS.
 
 ### Paper
 
-
+<div class="col-sm-4 portfolio-item" align="center">
 <a href="{{ page.paper }}">
-<img src="/img/publications/paper_img/vcs_img_paper.png" style="width: 200px;" >
+<img src="/img/publications/paper_img/vcs_img_paper.png" class="img-responsive" >
 </a>
+</div>
+
+
+              
 
 
 
