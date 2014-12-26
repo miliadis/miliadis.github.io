@@ -12,15 +12,16 @@
         <div class="row" >                
             <div class="container" style="padding-bottom: 30px;">	
 
-                <div >
-                        <h3 style ="border-bottom: 1px solid #EEE;">{{ page.title }}
-                            </br><small>{{ page.booktitle }}</small>
-                        </h3>
-                    </div>
+                <div class="col-sm-4 portfolio-item" align="center">
+                    <img src="img/publications/{{ post.img }}" class="img-responsive" style="width: 233px; height: 180px;">
+                </div>			 
+                <h4 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h4>
+                <p>{{ post.authors }}</p>
+                <div class="meta" style="padding-bottom: 5px;"><i>{{ post.booktitle }}</i></div>	
 
-                    <div>
-                        {{ content }}                          
-                    </div>
+                <a  href="{{ post.paper }}">Paper</a> /
+                <a  href="{{ post.url }}">Project Page</a>
+                {% if post.code %} / <a  href="{{ post.code }}">Code</a>{% endif %}
 
             </div>           
         </div>
