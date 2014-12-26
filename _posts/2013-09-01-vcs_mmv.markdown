@@ -26,3 +26,15 @@ the current state-of-the-art in video CS.
 
 
 
+
+### Authors 
+
+* Michael Iliadis
+* [Jeremy Watt](http://ivpl.eecs.northwestern.edu/user/JWatt)
+* [Leonidas Spinoulas](http://ivpl.eecs.northwestern.edu/user/LSpinoulas)
+* [Aggelos K. Katsaggelos](http://ivpl.eecs.northwestern.edu/people/akatsaggelos/)
+
+### Contact
+
+Please contact Michael Iliadis (miliad at u.northwestern.edu) if you have any questions.
+
