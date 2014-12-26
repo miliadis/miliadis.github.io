@@ -33,8 +33,7 @@ the current state-of-the-art in video CS.
 </div>
 
 
-                    <img src="img/publications/{{ post.img }}" class="img-responsive" style="width: 233px; height: 180px;">
-                </div>	
+              
 
 
 
