@@ -5,8 +5,8 @@
     <description>I am Michael Iliadis and I am 4th year PhD student at EECS Dept, Northwestern University. My main Research is on Computer Vision and Machine Learning and my adviser is Professor Aggelos K. Katsaggelos..</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Dec 2014 22:16:58 -0800</pubDate>
-    <lastBuildDate>Thu, 25 Dec 2014 22:16:58 -0800</lastBuildDate>
+    <pubDate>Thu, 25 Dec 2014 22:18:01 -0800</pubDate>
+    <lastBuildDate>Thu, 25 Dec 2014 22:18:01 -0800</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -134,7 +134,7 @@ the current state-of-the-art in video CS.&lt;/p&gt;
 &lt;h3 id=&quot;paper&quot;&gt;Paper&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;/papers/2013/iliadis_ICIP2013.pdf&quot;&gt;
-&amp;lt;img src=”/img/publications/paper_img/vcs_img_paper.png” style=”width: 500px; &amp;gt;
+&lt;img src=&quot;/img/publications/paper_img/vcs_img_paper.png&quot; style=&quot;width: 500px;&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;@INPROCEEDINGS{Iliadis_ICIP2013,
