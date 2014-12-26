@@ -6,14 +6,14 @@
                 <img class="img-responsive" src="img/profile.png" alt="" style="height: 200px;">
 
 
-                <div>
+                <div style="padding-bottom: 30px;">
                     <h1 style="margin-top: 0px; margin-bottom: 0px; font-family: proxima-nova,Helvetica Neue,Avenir,Arial,sans-serif; font-size: 46px;">
                         Michael Iliadis</h1>
                     <h3 style="margin-top: 0px; font-family: proxima-nova,Helvetica Neue,Avenir,Arial,sans-serif; font-size: 24px;">
                         Northwestern EECS Ph.D. student</h3>
 
 
-                    <ul class="list-inline" valign= "center">
+                    <ul class="list-inline">
                         {% for network in site.social %}
                         <li>
                             <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
