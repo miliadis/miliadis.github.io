@@ -13,7 +13,7 @@
                         Northwestern EECS Ph.D. student</h3>
 
 
-                    <ul class="list-inline">
+                    <ul class="list-inline" valign= "center">
                         {% for network in site.social %}
                         <li>
                             <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
