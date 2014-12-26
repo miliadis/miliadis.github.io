@@ -26,16 +26,9 @@ the current state-of-the-art in video CS.
 
 ### Paper
 
-
 <a href="{{ page.paper }}">
 <img src="/img/publications/paper_img/vcs_img_paper.png" class="img-responsive" >
 </a>
-
-
-
-              
-
-
 
 <pre><code>@INPROCEEDINGS{Iliadis_ICIP2013,
 author={Iliadis, M. and Watt, J. and Spinoulas, L. and Katsaggelos, A.K.},
