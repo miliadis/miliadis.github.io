@@ -1,20 +1,282 @@
----
-layout: default
----
 
-<div class="home">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108642042-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <h1>Posts</h1>
+  gtag('config', 'UA-108642042-1');
+</script>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <title>Michael Iliadis</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <!--<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
+  </head>
+  <body>
+  <table width="900" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="67%" valign="middle">
+        <p align="center">
+          <name>Michael Iliadis</name>
+        </p>
+        <p>I am a senior machine learning engineer at <a href="https://www.captricity.com/">Captricity</a>. My focus is in machine learning for computer vision and particularly in  <a href="http://captricity.com/technology/#machines">image document recognition</a> and <a href="http://captricity.com/technology/#handwriting-recognition">handwriting recognition</a>.</p>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <p>Before that, I was a research scientist at <a href="https://www.sony.com/">SONY US Research Center</a> where I worked on <a href="http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review">semantic segmentation</a> for SONY products.
+        </p>
+        <p> I received my Ph.D. degree in EECS from <a href="http://www.mccormick.northwestern.edu/eecs/">Northwestern University</a> in 2016 where I worked under the supervision of <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a> in the <a href="http://ivpl.eecs.northwestern.edu/">Image and Video Laboratory (IVPL)</a>. I received my M.S. degree in Computer Science from the <a href="http://www.bath.ac.uk/comp-sci/">University of Bath</a>, UK in 2009 and the B.S. degree in Digital Systems from the <a href="http://www.ds.unipi.gr/en/">University of Piraeus</a>, Greece in 2008.
+        </p>
+        <p align=center>
+          <a href="mailto:miliad@u.northwestern.edu">Email</a> &nbsp/&nbsp
+          <a href="cv/Michael_Iliadis_Resume.pdf">CV</a> &nbsp/&nbsp
+          <a href="https://drive.google.com/file/d/0B7R_i0KPrubMMW43bm9HNGEtM1U/view?usp=sharing">Thesis</a> &nbsp/&nbsp  
+          <a href="https://scholar.google.com/citations?user=eitRqV0AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp 
+          <a href="https://www.linkedin.com/in/miliadis/"> LinkedIn </a>
+        </p>
+        </td>
+        <td width="33%">
+        <img src="images/profile.png" height="220">
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="middle">
+          <heading>Research</heading>
+          <p>
+          My research focuses in machine learning/deep learning for computer vision and image processing applications. Recent projects include image document/text analysis and recognition, semantic segmentation for scene understanding, video compressive sensing and face recognition.
+          </p>
+        </td>
+      </tr>
+      </table>
+  
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-</div>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/deep_binarymask.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/Binary_Mask_Arxiv.pdf">
+          <papertitle>DeepBinaryMask: Learning a Binary Mask for Video Compressive Sensing</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">Leonidas Spinoulas</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>Arxiv</em>, 2017<br>
+          <a href="papers/bib/Iliadis_Deep_Binary.bib">bibtex</a>
+        </p>
+        <p>We propose a novel encoder-decoder neural network model called DeepBinaryMask for video compressive sensing. The proposed framework is an end-to-end model where the sensing matrix is trained along with the video reconstruction.<br></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/deep_videocs.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/Deep_Video_CS.pdf">
+          <papertitle>Deep Fully-Connected Networks for Video Compressive Sensing</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">Leonidas Spinoulas</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>Elsevier Digital Signal Processing</em>, 2018<br>
+          <a href="deep_cs_project.html">project page</a> / <a href="papers/bib/Iliadis_DSP2017.bib">bibtex</a> / <a href="https://github.com/miliadis/DeepVideoCS">code & data</a> / <a href="images/projects/deep_cs/SupplementaryMaterial_Deep_VideoCS.pptx">supplement</a>
+        </p>
+        <p>A deep learning framework for video compressive sensing.<br></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/face_occlusion.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/Face_TIP.pdf">
+          <papertitle>Robust and Low-Rank Representation for Fast Face Identification with Occlusions</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://users.eecs.northwestern.edu/~haohong/">Haohong Wang</a>, <a href="http://decsai.ugr.es/~rms/">Rafael Molina</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>IEEE Transactions on Image Processing (TIP)</em>, 2017<br>
+          <a href="papers/bib/Iliadis_TIP2017.bib">bibtex</a> / <a href="https://github.com/miliadis/FIRC">code</a>
+        </p>
+        <p>A fast iterative method to address the face identification problem with block occlusions.<br></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/multi_modal_face.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/Face_ICIP.pdf">
+          <papertitle>Multi-Model Robust Error Correction for Face Recognition</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">Leonidas Spinoulas</a>, <a href="https://sites.google.com/a/u.northwestern.edu/albertsberahas/home">Albert S. Berahas</a>, <a href="http://users.eecs.northwestern.edu/~haohong/">Haohong Wang</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>International Conference Image Processing (ICIP)</em>, 2016<br>
+          <a href="papers/bib/Iliadis_ICIP2016_face.bib">bibtex</a>
+        </p>
+        <p>The proposed formulation allows the simultaneous use of various loss functions for modeling the residual in face images.<br></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/video_alignment.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/ICIP_video_align.pdf">
+          <papertitle>Block Based Video Alignment with Linear time and Space Complexity</papertitle>
+          </a>
+          <br>
+          <a href="https://scholar.google.com/citations?user=l6dM7C0AAAAJ&hl=en">Armin Kappeler</a>, <strong>Michael Iliadis</strong>, <a href="http://users.eecs.northwestern.edu/~haohong/">Haohong Wang</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>International Conference Image Processing (ICIP)</em>, 2016<br>
+          <a href="papers/bib/Iliadis_ICIP2016_align.bib">bibtex</a>
+        </p>
+        <p>We propose a fast, robust and memory efficient video sequence alignment algorithm which has linear space and time complexity.</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/face_sparse.jpg" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/iliadis_EUSIPCO2014.pdf">
+          <papertitle>Sparse Representation and Least Squares-based Classification in Face Recognition</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">Leonidas Spinoulas</a>, <a href="https://sites.google.com/a/u.northwestern.edu/albertsberahas/home">Albert S. Berahas</a>, <a href="http://users.eecs.northwestern.edu/~haohong/">Haohong Wang</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>European Signal Processing Conference (EUSIPCO)</em>, 2014<br>
+          <a href="papers/bib/Iliadis_EUSIPCO2014.bib">bibtex</a> / <a href="https://github.com/miliadis/SRC-RLS">code</a>
+        </p>
+        <p>Effectively, our method combines the sparsity-based approaches with additional least-squares steps.<br></p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/virtual_touring_img.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="papers/iliadis_ICMEW2013.pdf">
+          <papertitle>Virtual touring - A Content Based Image Retrieval application</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="https://sites.google.com/site/seunghwanandrewyoo/">Seunghwan Yoo</a>, <a href="https://scholar.google.com/citations?user=RxCW-BcAAAAJ&hl=en">Xin Xin</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>International Conference on Multimedia and Expo Workshops (ICMEW)</em>, 2013<br>
+          <a href="papers/bib/Iliadis_ICMEW2013.bib">bibtex</a>
+        </p>
+        <p>A content based image retrieval application for searching landmarks and buildings in a city using a smartphone.</p>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" valign="top"><img src="images/papers/vcs_img.png" width="233" height="180"></td>
+        <td width="75%" valign="top">
+        <p>
+        <p>
+          <a href="papers/iliadis_ICIP2013.pdf">
+          <papertitle>Video Compressive Sensing using Multiple Measurement Vectors</papertitle>
+          </a>
+          <br>
+          <strong>Michael Iliadis</strong>, <a href="http://ivpl.eecs.northwestern.edu/users/JWatt">Jeremy Watt</a>, <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">Leonidas Spinoulas</a>, <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">Aggelos K. Katsaggelos</a><br>
+          <em>International Conference Image Processing (ICIP)</em>, 2013 <br>
+          <a href="papers/bib/Iliadis_ICIP2013.bib">bibtex</a>
+          /
+          <font color=red> Top 10% Paper Recognition</font>
+        <p></p>
+        <p>The approach takes advantage of Multiple Measurement Vectors (MMV), seeking for significantly sparser solutions, assuming that the solution vectors have similar sparsity structure.</p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Teaching</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="25%"><img src="images/teaching.jpg" width="233" height="180"></td>
+        <td width="75%" valign="center">
+        <p>
+          <a href="http://www.mccormick.northwestern.edu/eecs/courses/descriptions/214.html">
+          <papertitle>EECS 214: Data Structures and Data Management - Spring 2015, 2016</papertitle>
+          </a>
+          <br><br>
+          <a href="http://www.mccormick.northwestern.edu/eecs/courses/descriptions/205-EA-1-1.html">
+          <papertitle>GEN_ENG 205: Engineering Analysis - Winter 2015</papertitle>
+          </a>
+          <br>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <br>
+        <p align="right">
+          <font size="2">
+            I copied the source code of this website from <a href="https://jonbarron.info/">here</a>.
+	    </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+  </table>
+  </body>
+</html>

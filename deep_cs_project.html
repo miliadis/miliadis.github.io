@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name=viewport content="width=800">
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+
+    <title>Deep Fully-Connected Networks for Video Compressive Sensing </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108642042-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108642042-1');
+</script>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <title>Deep Video Compressive Sensing</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <!--<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
+</head>
+
+<body>
+    <table width="900" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+            <div class="row">
+                <h1 class="col-md-12 text-center">
+                    Deep Fully-Connected Networks for </br> Video Compressive Sensing </br> 
+                    <small>
+                        Elsevier Digital Signal Processing 2018
+                    </small>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://users.eecs.northwestern.edu/~mif365/">
+                                Michael Iliadis
+                            </a>*
+                            </br>Northwestern EECS
+                        </li>
+                        <li>
+                            <a href="http://ivpl.eecs.northwestern.edu/users/LSpinoulas">
+                                Leonidas Spinoulas
+                            </a>*
+                            </br>Northwestern EECS
+                        </li>
+                        <li>
+                            <a href="http://ivpl.eecs.northwestern.edu/users/akatsaggelos/">
+                                Aggelos K. Katsaggelos
+                            </a>
+                            </br>Northwestern EECS
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle" style="padding-top:20px;">
+                <video controls="controls" name="Video Name" width="900" src="images/projects/deep_cs/deep_video.mov" autoplay loop></video>
+            </td>
+          </tr>
+          <tr><td width="100%" valign="top" align="center" ><i>(* equal contributions) Video compressive sensing aims at increasing the temporal resolution of a sensor by incorporating additional hardware components to the camera architectuand employing powerful computational techniques for high speed video reconstruction. The additional components operate at higher frame rates than the camera’s native temporal resolution giving rise to low frame rate multiplexed measurements <b>(frames in the middle)</b> which can later be decoded to extract the unknown observed high speed video sequence <b>(frames in the right)</b>.</i></tr>
+
+
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle" style="padding-top:20px;">
+              <heading>Abstract</heading>
+              <p align="center" style="padding-bottom: 15px; padding-top:5px;">
+              <a href="papers/Deep_Video_CS.pdf" style="font-size: 20px;">Paper</a> / <a href="images/projects/deep_cs/SupplementaryMaterial_Deep_VideoCS.pptx" style="font-size: 20px;">Supplement</a> / <a href="https://github.com/miliadis/DeepVideoCS" style="font-size: 20px;">Code & Data</a>
+              </p>
+              <p style="padding-bottom: 25px; padding-top:10px;">
+              In this work we present a deep learning framework for video compressive sensing. The proposed formulation enables recovery of video frames <b>in a few seconds </b> at significantly improved reconstruction quality compared to previous approaches. Our investigation starts by learning a linear mapping between video sequences and corresponding measured frames which turns out to provide promising results. We then extend the linear formulation to deep fully-connected networks and explore the performance gains using deeper architectures. Our analysis is always driven by the applicability of the proposed framework on existing compressive video architectures. Extensive simulations on several video sequences document the superiority of our approach both quantitatively and qualitatively. Finally, our analysis offers insights into understanding how dataset sizes and number of layers affect reconstruction performance while raising a few points for future investigation.
+              </p>
+              <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center last">
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/vX7U1PNJ_Ck" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle" style="padding-top:45px;">
+              <heading>Architecture</heading>
+              <p style="padding-bottom: 35px; padding-top:10px;">We present the first deep learning architecture for temporal
+video CS reconstruction approach, based on fully-connected
+neural networks, which learns to map directly temporal CS
+measurements to video frames. For such task to be practical, a
+measurement mask with a repeated pattern is proposed.
+              </p>
+            </td>
+          </tr>
+          <tr><td width="100%" valign="top" align="center"><img src="images/projects/deep_cs/network.jpg" width="700" height="250"></td></tr>
+           <tr><td width="100%" valign="top" align="center" style="padding-top:15px;"><i>Illustration of the proposed deep learning architecture for video compressive sensing</i></tr>
+          </table>
+        
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+            <td width="100%" valign="middle" style="padding-top:35px;">
+              <heading>Bibtex</heading>
+              <p style="padding-bottom: 25px; padding-top:10px;">
+               
+                    <textarea id="bibtex" class="form-control" readonly>
+@article{DeepVideoCS2018,
+title = "Deep fully-connected networks for video compressive sensing",
+journal = "Digital Signal Processing",
+volume = "72",
+pages = "9 - 18",
+year = "2018",
+author = "Michael Iliadis and Leonidas Spinoulas and Aggelos K. Katsaggelos"}</textarea>   
+        </p>
+        </td>
+        </tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>
